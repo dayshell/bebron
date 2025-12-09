@@ -68,11 +68,11 @@ export default function Page() {
         <Hero />
         <div className="flex flex-col z-2 px-4 size-full md:p-12 max-md:items-center max-md:text-center">
           <p className="mt-12 text-xs text-brand font-medium rounded-full p-2 border border-brand/50 w-fit">
-            the React.js docs framework you love.
+            the bebra.shop you love.
           </p>
           <h1 className="text-4xl my-8 leading-tighter font-medium xl:text-5xl xl:mb-12">
             Build excellent
-            <br className="md:hidden" /> documentations,
+            <br className="md:hidden" /> projects,
             <br />
             your <span className="text-brand">style</span>.
           </h1>
@@ -84,7 +84,7 @@ export default function Page() {
               Getting Started
             </Link>
             <a
-              href="https://codesandbox.io/p/sandbox/github/fuma-nama/fumadocs-ui-template"
+              href="https://codesandbox.io/"
               target="_blank"
               rel="noreferrer noopener"
               className={cn(
@@ -92,20 +92,20 @@ export default function Page() {
                 'max-sm:text-sm',
               )}
             >
-              Open CodeSandbox
+              Open
             </a>
           </div>
         </div>
       </div>
       <div className="grid grid-cols-1 gap-10 mt-12 px-6 mx-auto w-full max-w-[1400px] md:px-12 lg:grid-cols-2">
         <p className="text-2xl tracking-tight leading-snug font-light col-span-full md:text-3xl xl:text-4xl">
-          Fumadocs is a <span className="text-brand font-medium">React.js</span>{' '}
-          documentation framework for{' '}
-          <span className="text-brand font-medium">Developers</span>,
+          Bebra.shop is a <span className="text-brand font-medium"> digital shop</span>{' '}
+          for{' '}
+          <span className="text-brand font-medium">your project</span>,
           beautifully designed by{' '}
-          <span className="text-brand font-medium">Fuma Nama</span>. Bringing
-          powerful features for your docs workflows, with high customizability
-          to fit your preferences, works seamlessly with any React.js framework,
+          <span className="text-brand font-medium">good people</span>. Bringing
+          powerful features for your projects workflows, with high customizability
+          to fit your preferences, works seamlessly with any guys,
           CMS — anything.
         </p>
         <div className="p-8 bg-radial-[circle_at_top_center] from-25% to-brand-secondary/50 rounded-xl col-span-full">
