@@ -18,8 +18,8 @@ export const linkItems: LinkItemType[] = [
     active: 'url',
   },
   {
-    text: 'Sponsors',
-    url: '/sponsors',
+    text: '????',
+    url: '/something',
     icon: <Heart />,
   },
   {
@@ -56,7 +56,7 @@ export function baseOptions(): BaseLayoutProps {
       title: (
         <>
           {logo}
-          <span className="font-medium in-[.uwu]:hidden">Fumadocs</span>
+          <span className="font-medium in-[.uwu]:hidden">Bebra</span>
         </>
       ),
     },
