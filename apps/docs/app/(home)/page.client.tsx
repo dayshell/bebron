@@ -222,15 +222,15 @@ export function PreviewImages(props: ComponentProps<'div'>) {
   const previews = [
     {
       image: MainImg,
-      name: 'Docs',
+      name: 'Crypto',
     },
     {
       image: NotebookImg,
-      name: 'Notebook',
+      name: 'Gambling',
     },
     {
       image: OpenAPIImg,
-      name: 'OpenAPI',
+      name: 'Other',
     },
   ];
 

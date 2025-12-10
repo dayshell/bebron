@@ -113,7 +113,7 @@ export default function Page() {
             Try it out.
           </h2>
           <CodeBlock
-            code="pnpm create fumadocs-app"
+            code="open bebra.shop"
             lang="bash"
             wrapper={{
               className: 'mx-auto w-full max-w-[800px]',
@@ -158,7 +158,7 @@ function Aesthetics() {
           Pro designer? Customise the theme using Fumadocs CLI.
         </p>
         <CodeBlock
-          code={`pnpm dlx @fumadocs/cli customise\n\n> Choose a layout to customise...`}
+          code={`bebra.shop @bebra/shop\n> save url...`}
           lang="bash"
         />
       </div>
@@ -730,24 +730,24 @@ function OpenSource() {
             }),
           )}
         >
-          Made Possible by You.
+          Made Possible for You.
         </h3>
         <p className="mb-8">
-          Fumadocs is 100% powered by passion and open source community.
+          Bebra is 100% clean code.
         </p>
         <div className="mb-8 flex flex-row items-center gap-2">
           <Link
-            href="/sponsors"
+            href="/"
             className={cn(buttonVariants({ variant: 'primary' }))}
           >
-            Sponsors
+            ????
           </Link>
           <a
-            href="https://github.com/fuma-nama/fumadocs/graphs/contributors"
+            href="https://github.com/"
             rel="noreferrer noopener"
             className={cn(buttonVariants({ variant: 'secondary' }))}
           >
-            Contributors
+            Reviews
           </a>
         </div>
         <ContributorCounter repoOwner={owner} repoName={repo} />
@@ -760,7 +760,7 @@ function OpenSource() {
         )}
       >
         <h2 className="text-3xl text-center font-extrabold font-mono uppercase mb-4 lg:text-4xl">
-          Build Your Docs
+          Build Your Project
         </h2>
         <p className="text-center font-mono text-xs opacity-50 mb-8">
           light and gorgeous, just like the moon.
