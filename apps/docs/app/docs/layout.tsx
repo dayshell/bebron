@@ -23,7 +23,7 @@ export default function Layout({ children }: LayoutProps<'/docs'>) {
           <>
             {logo}
             <span className="font-medium in-[.uwu]:hidden max-md:hidden">
-              Fumadocs
+              BEBRA
             </span>
           </>
         ),
